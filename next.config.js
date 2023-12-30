@@ -5,6 +5,7 @@ const nextConfig = {
     // experimental: {
     //     appDir: true
     //   },
+    exclude:[".git", ".github"],
       eslint: {
         ignoreDuringBuilds: true,
       },
